@@ -1,0 +1,13 @@
+body {
+  background: #f3e9de;
+}
+
+.containerInput {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.containerInput input {
+  height: 38px;
+}

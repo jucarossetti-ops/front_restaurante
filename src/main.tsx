@@ -7,7 +7,8 @@ import Mesas from "./pages/mesas/mesas";
 import Pedidositems from "./pages/pedidositems/pedidoitems";
 import Pedidos from "./pages/Pedidos/pedidos";
 
-import "./index.css";
+import "./styles/reset.css";
+import "./index.module.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
