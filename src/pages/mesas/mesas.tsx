@@ -22,8 +22,7 @@ function Mesas() {
   async function buscarMesas() {
     const response = await axios.get<Mesa[]>("http://localhost:8888/mesas", {
       headers: {
-        Authorization:
-          "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzg4MDk3NjQ4LCJleHAiOjE3ODgxODQwNDh9.RGnmXKpHyZLREE07sWC2kTSfX19rx2Lj5INccn-wKm4",
+        Authorization: `Bearen ${dadosLocalStorage.token}`,
       },
     });
 
